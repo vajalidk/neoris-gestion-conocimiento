@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:nx="http://www.semanticweb.org/vicente/ontologias/neoris#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#AreaGestionProyectos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:label xml:lang="es">Gestión de proyectos</rdfs:label>
+    <nx:nombre>Gestión de proyectos</nx:nombre>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_001"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_002"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_003"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_004"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_005"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_006"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_007"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-002: Política de trabajo remoto</rdfs:label>
+    <nx:idDocumento>POL-002</nx:idDocumento>
+    <nx:titulo xml:lang="es">Política de trabajo remoto</nx:titulo>
+    <nx:texto xml:lang="es">Los empleados pueden trabajar desde casa según su puesto y proyecto. Deben usar la VPN de la empresa y equipos autorizados. Tienen que estar disponibles en el horario acordado con su líder. Las reuniones con clientes se hacen con cámara encendida.</nx:texto>
+    <nx:regulaA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConsultorEjemplo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#AreaDesarrollo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:label xml:lang="es">Desarrollo</rdfs:label>
+    <nx:nombre>Desarrollo</nx:nombre>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_001"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_002"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_003"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_004"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_005"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_006"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_007"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_008"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#AreaInfraestructura">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:label xml:lang="es">Infraestructura y nube</rdfs:label>
+    <nx:nombre>Infraestructura y nube</nx:nombre>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_001"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_002"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_003"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_004"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_005"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_006"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_007"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#contrata">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">contrata</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#mejora">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">mejora</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-003: Ticket frecuente: la aplicación móvil se cierra sola</rdfs:label>
+    <nx:idDocumento>SOP-003</nx:idDocumento>
+    <nx:titulo xml:lang="es">Ticket frecuente: la aplicación móvil se cierra sola</nx:titulo>
+    <nx:texto xml:lang="es">Varios clientes reportan que la aplicación móvil se cierra al abrir la sección de pedidos. El problema pasa en versiones viejas del sistema operativo. La solución temporal es actualizar el teléfono. El ticket se escaló a desarrollo para corregir la compatibilidad.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-006: Procedimiento de recuperación ante desastres</rdfs:label>
+    <nx:idDocumento>INF-006</nx:idDocumento>
+    <nx:titulo xml:lang="es">Procedimiento de recuperación ante desastres</nx:titulo>
+    <nx:texto xml:lang="es">Si la región principal de la nube falla, los servicios se levantan en la región secundaria. El procedimiento indica el orden para levantar bases de datos, aplicaciones y balanceadores. Se hace un simulacro cada seis meses para practicar.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ocurreEn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">ocurre en</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Incidente"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-001: Lecciones aprendidas: implementación SAP en cliente de manufactura</rdfs:label>
+    <nx:idDocumento>PRY-001</nx:idDocumento>
+    <nx:titulo xml:lang="es">Lecciones aprendidas: implementación SAP en cliente de manufactura</nx:titulo>
+    <nx:texto xml:lang="es">El proyecto se retrasó dos semanas porque los requerimientos cambiaron a la mitad. Aprendimos que hay que cerrar el alcance por escrito antes de empezar. También que las pruebas con usuarios deben planearse desde el inicio. Estas lecciones se usarán en los siguientes proyectos SAP.</nx:texto>
+    <nx:documenta rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoImplementacionSAP"/>
+    <nx:mejora rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-002: Procedimiento de respaldo de bases de datos</rdfs:label>
+    <nx:idDocumento>INF-002</nx:idDocumento>
+    <nx:titulo xml:lang="es">Procedimiento de respaldo de bases de datos</nx:titulo>
+    <nx:texto xml:lang="es">Las bases de datos se respaldan todos los días en la madrugada. Los respaldos se guardan en un almacenamiento en la nube en otra región. Cada semana se prueba restaurar un respaldo para confirmar que funciona. Si falla un respaldo, se genera una alerta al equipo de guardia.</nx:texto>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaNube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-003: Proceso de revisión de código (code review)</rdfs:label>
+    <nx:idDocumento>DEV-003</nx:idDocumento>
+    <nx:titulo xml:lang="es">Proceso de revisión de código (code review)</nx:titulo>
+    <nx:texto xml:lang="es">Cada cambio se sube en una rama y se abre un pull request. Otro desarrollador revisa el código, deja comentarios y aprueba. No se puede integrar a la rama principal sin al menos una aprobación. La revisión sirve para compartir conocimiento y detectar errores.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Documentación técnica</rdfs:label>
+    <rdfs:comment xml:lang="es">APIs, manuales, estándares y correcciones de código (DEV).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionReiniciarInterfaz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Solucion"/>
+    <rdfs:label xml:lang="es">Solución: corregir el pedido y reiniciar la interfaz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaTiendaEnLinea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+    <rdfs:label xml:lang="es">Tienda en línea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-003: Reporte de avance semanal del proyecto de tienda en línea</rdfs:label>
+    <nx:idDocumento>PRY-003</nx:idDocumento>
+    <nx:titulo xml:lang="es">Reporte de avance semanal del proyecto de tienda en línea</nx:titulo>
+    <nx:texto xml:lang="es">Esta semana se terminó el módulo de carrito y se empezaron las pruebas. El proyecto va en tiempo pero con un riesgo en la integración de pagos. Se acordó con el cliente una reunión para revisar ese riesgo. El avance general es del sesenta por ciento.</nx:texto>
+    <nx:documenta rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoTiendaEnLinea"/>
+    <nx:registra rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#RiesgoIntegracionPagos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#TicketCuentaBloqueada">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Ticket"/>
+    <rdfs:label xml:lang="es">Ticket: usuario con cuenta bloqueada</rdfs:label>
+    <nx:afectaA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaPortalCliente"/>
+    <nx:seResuelveCon rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDesbloquearCuenta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Proyecto</rdfs:label>
+    <rdfs:comment xml:lang="es">Trabajo que Neoris hace para un cliente.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoMigracionNube">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+    <rdfs:label xml:lang="es">Migración a la nube</rdfs:label>
+    <nx:implementa rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaNube"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#TicketPedidosSAP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Ticket"/>
+    <rdfs:label xml:lang="es">Ticket: pedidos no llegan a SAP</rdfs:label>
+    <nx:afectaA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaSAP"/>
+    <nx:seResuelveCon rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionReiniciarInterfaz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoImplementacionSAP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+    <rdfs:label xml:lang="es">Implementación SAP</rdfs:label>
+    <nx:implementa rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaSAP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#esGeneradoPor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es generado por</rdfs:label>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#genera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-008: Solución: usuario bloqueado por intentos fallidos</rdfs:label>
+    <nx:idDocumento>SOP-008</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: usuario bloqueado por intentos fallidos</nx:titulo>
+    <nx:texto xml:lang="es">El usuario quedó bloqueado después de tres intentos fallidos de contraseña. El agente verifica la identidad del usuario y desbloquea la cuenta. Después le pide cambiar la contraseña. Este es uno de los tickets más comunes de la mesa de ayuda.</nx:texto>
+    <nx:documenta rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDesbloquearCuenta"/>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#TicketCuentaBloqueada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#implementa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">implementa</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#seResuelveCon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">se resuelve con</rdfs:label>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Solucion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Ticket">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Ticket</rdfs:label>
+    <rdfs:comment xml:lang="es">Solicitud de ayuda que abre un cliente.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-003: Política de vacaciones y permisos</rdfs:label>
+    <nx:idDocumento>POL-003</nx:idDocumento>
+    <nx:titulo xml:lang="es">Política de vacaciones y permisos</nx:titulo>
+    <nx:texto xml:lang="es">Las vacaciones se solicitan en el portal de recursos humanos con al menos dos semanas de anticipación. El líder de proyecto debe aprobar la solicitud. Los permisos por enfermedad se avisan el mismo día. Los días de vacaciones no usados no se pagan.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-004: Componente reutilizable: módulo de autenticación</rdfs:label>
+    <nx:idDocumento>DEV-004</nx:idDocumento>
+    <nx:titulo xml:lang="es">Componente reutilizable: módulo de autenticación</nx:titulo>
+    <nx:texto xml:lang="es">Este módulo maneja el inicio de sesión, el registro y la recuperación de contraseña. Se puede reutilizar en cualquier proyecto web del cliente. Incluye pruebas unitarias y ejemplos de uso. Está guardado en el repositorio de componentes compartidos.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-008: Estándar de pruebas unitarias</rdfs:label>
+    <nx:idDocumento>DEV-008</nx:idDocumento>
+    <nx:titulo xml:lang="es">Estándar de pruebas unitarias</nx:titulo>
+    <nx:texto xml:lang="es">Cada función nueva debe tener pruebas unitarias. Las pruebas deben cubrir el caso normal y los casos de error. El pipeline no deja integrar código si alguna prueba falla. Se busca una cobertura mínima del ochenta por ciento.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Cliente</rdfs:label>
+    <rdfs:comment xml:lang="es">Empresa que contrata servicios a Neoris.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-001: Documentación técnica: API de pedidos</rdfs:label>
+    <nx:idDocumento>DEV-001</nx:idDocumento>
+    <nx:titulo xml:lang="es">Documentación técnica: API de pedidos</nx:titulo>
+    <nx:texto xml:lang="es">La API de pedidos permite crear, consultar y cancelar pedidos. Usa autenticación con token y responde en formato JSON. Cada endpoint tiene validaciones de datos obligatorios. Los errores regresan un código y un mensaje claro para el desarrollador que la consume.</nx:texto>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaTiendaEnLinea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-001: Solución: error de inicio de sesión en portal del cliente</rdfs:label>
+    <nx:idDocumento>SOP-001</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: error de inicio de sesión en portal del cliente</nx:titulo>
+    <nx:texto xml:lang="es">Los usuarios del cliente no podían iniciar sesión en el portal después de la actualización. La causa fue una sesión guardada en caché del navegador. La solución es borrar la caché y las cookies, y volver a entrar. Si el error sigue, revisar que la contraseña no haya expirado en el directorio activo.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-007: Documentación técnica: integración con SAP por servicios web</rdfs:label>
+    <nx:idDocumento>DEV-007</nx:idDocumento>
+    <nx:titulo xml:lang="es">Documentación técnica: integración con SAP por servicios web</nx:titulo>
+    <nx:texto xml:lang="es">La integración con SAP se hace con servicios web que reciben pedidos y clientes. Cada mensaje se valida antes de enviarse. Si SAP regresa un error, el mensaje se guarda en una cola para reintentar. El desarrollador debe revisar el formato de fechas y montos.</nx:texto>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaSAP"/>
+    <nx:seReutilizaEn rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-005: Gestión de riesgos del proyecto</rdfs:label>
+    <nx:idDocumento>PRY-005</nx:idDocumento>
+    <nx:titulo xml:lang="es">Gestión de riesgos del proyecto</nx:titulo>
+    <nx:texto xml:lang="es">Cada proyecto tiene una lista de riesgos con su probabilidad e impacto. El líder revisa la lista cada semana con el equipo. Para cada riesgo alto se define un plan de acción y un responsable. Los riesgos cerrados se guardan como lecciones aprendidas.</nx:texto>
+    <nx:registra rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#RiesgoIntegracionPagos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#describe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">describe</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N39eed1e8fe3d451994e1dec2d97dd5bd">
+    <rdf:first rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdf:rest rdf:nodeID="N703ef5c791f24b809d145aeceadc5586"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#titulo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">título</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Política interna</rdfs:label>
+    <rdfs:comment xml:lang="es">Políticas de la empresa y de recursos humanos (POL).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Reporte de incidente y procedimiento</rdfs:label>
+    <rdfs:comment xml:lang="es">Incidentes y procedimientos de operación (INF).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#AreaRecursosHumanos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:label xml:lang="es">Recursos humanos y cumplimiento</rdfs:label>
+    <nx:nombre>Recursos humanos y cumplimiento</nx:nombre>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_001"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_002"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_003"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_004"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_005"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_006"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_007"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label xml:lang="es">Ontología del conocimiento de Neoris</rdfs:label>
+    <rdfs:comment xml:lang="es">Ontología del avance de proyecto de MAPS (Tecmilenio). Autor: Vicente Alberto Jahrift Alonso López, AL07002967. Neoris es una consultora de TI real; los documentos y casos son un escenario de ejemplo hecho para el prototipo.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-007: Política de capacitación y certificaciones</rdfs:label>
+    <nx:idDocumento>POL-007</nx:idDocumento>
+    <nx:titulo xml:lang="es">Política de capacitación y certificaciones</nx:titulo>
+    <nx:texto xml:lang="es">La empresa paga certificaciones relacionadas con el puesto, como SAP o nube. El empleado debe pedir autorización a su líder y a recursos humanos. Si deja la empresa antes de un año, debe regresar parte del costo. Las certificaciones se registran en su perfil.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-007: Solución: reporte de ventas tarda mucho en cargar</rdfs:label>
+    <nx:idDocumento>SOP-007</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: reporte de ventas tarda mucho en cargar</nx:titulo>
+    <nx:texto xml:lang="es">Un cliente reporta que el reporte de ventas tarda varios minutos. El filtro de fechas estaba abierto y traía todos los años. Se le explicó al usuario cómo filtrar por mes. Si el problema sigue con filtro, escalar a datos para revisar la consulta.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#AreaSoporteTecnico">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:label xml:lang="es">Soporte técnico</rdfs:label>
+    <nx:nombre>Soporte técnico</nx:nombre>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_001"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_002"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_003"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_004"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_005"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_006"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_007"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_008"/>
+    <nx:genera rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-001: Política de seguridad de la información</rdfs:label>
+    <nx:idDocumento>POL-001</nx:idDocumento>
+    <nx:titulo xml:lang="es">Política de seguridad de la información</nx:titulo>
+    <nx:texto xml:lang="es">Todos los empleados deben proteger la información de la empresa y de los clientes. No se deben compartir contraseñas ni guardar datos de clientes en equipos personales. Cualquier incidente de seguridad se reporta de inmediato. No cumplir esta política puede tener sanciones.</nx:texto>
+    <nx:regulaA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConsultorEjemplo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Area">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Área</rdfs:label>
+    <rdfs:comment xml:lang="es">Área de la organización que genera, usa o actualiza conocimiento.</rdfs:comment>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#idDocumento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="es">id del documento</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-005: Corrección de bug: cálculo de impuestos en carrito</rdfs:label>
+    <nx:idDocumento>DEV-005</nx:idDocumento>
+    <nx:titulo xml:lang="es">Corrección de bug: cálculo de impuestos en carrito</nx:titulo>
+    <nx:texto xml:lang="es">El carrito calculaba mal el impuesto cuando había descuentos. El error estaba en el orden de las operaciones. Se corrigió para aplicar primero el descuento y luego el impuesto. Se agregó una prueba unitaria para que el bug no regrese.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#nombre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">nombre</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-007: Reporte de incidente: ataque de fuerza bruta al servidor</rdfs:label>
+    <nx:idDocumento>INF-007</nx:idDocumento>
+    <nx:titulo xml:lang="es">Reporte de incidente: ataque de fuerza bruta al servidor</nx:titulo>
+    <nx:texto xml:lang="es">Se detectaron miles de intentos de acceso al servidor desde direcciones desconocidas. Operaciones bloqueó las direcciones en el firewall y activó la protección contra fuerza bruta. No hubo acceso indebido. Se revisaron los registros de seguridad para confirmar.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-005: Política de uso de equipos de cómputo</rdfs:label>
+    <nx:idDocumento>POL-005</nx:idDocumento>
+    <nx:titulo xml:lang="es">Política de uso de equipos de cómputo</nx:titulo>
+    <nx:texto xml:lang="es">Las laptops de la empresa solo se usan para trabajo. No se instala software sin autorización del área de TI. Los equipos deben tener antivirus y actualizaciones al día. Si se pierde o se roba un equipo se avisa de inmediato.</nx:texto>
+    <nx:regulaA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConsultorEjemplo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-004: Código de ética y conducta</rdfs:label>
+    <nx:idDocumento>POL-004</nx:idDocumento>
+    <nx:titulo xml:lang="es">Código de ética y conducta</nx:titulo>
+    <nx:texto xml:lang="es">Los empleados deben actuar con honestidad y respeto con compañeros y clientes. Está prohibido aceptar regalos de proveedores. Los conflictos de interés se reportan al área de cumplimiento. Cualquier conducta indebida se puede reportar de forma anónima.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#regulaA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">regula a</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#esContratadoPor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es contratado por</rdfs:label>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#contrata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Riesgo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Riesgo</rdfs:label>
+    <rdfs:comment xml:lang="es">Algo que puede afectar a un proyecto.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-004: Solución: impresora de etiquetas no imprime desde el sistema</rdfs:label>
+    <nx:idDocumento>SOP-004</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: impresora de etiquetas no imprime desde el sistema</nx:titulo>
+    <nx:texto xml:lang="es">El sistema de almacén no manda trabajos a la impresora de etiquetas. El controlador estaba desactualizado. Se instaló el controlador nuevo y se reinició el servicio de impresión. El agente debe confirmar con el usuario que ya imprime.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Neoris">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Organizacion"/>
+    <rdfs:label xml:lang="es">Neoris</rdfs:label>
+    <nx:tieneArea rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#AreaSoporteTecnico"/>
+    <nx:tieneArea rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#AreaDesarrollo"/>
+    <nx:tieneArea rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#AreaInfraestructura"/>
+    <nx:tieneArea rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#AreaGestionProyectos"/>
+    <nx:tieneArea rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#AreaRecursosHumanos"/>
+    <nx:atiendeA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ClienteManufactura"/>
+    <nx:atiendeA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ClienteRetail"/>
+    <nx:atiendeA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ClienteBanca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-002: Guía de estilo de código del equipo</rdfs:label>
+    <nx:idDocumento>DEV-002</nx:idDocumento>
+    <nx:titulo xml:lang="es">Guía de estilo de código del equipo</nx:titulo>
+    <nx:texto xml:lang="es">Todo el código debe seguir la guía de estilo del equipo. Los nombres de variables y funciones deben ser claros. Cada función debe tener una sola responsabilidad. Antes de subir cambios al repositorio se corre el linter y las pruebas unitarias.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-008: Metodología ágil en proyectos con clientes</rdfs:label>
+    <nx:idDocumento>PRY-008</nx:idDocumento>
+    <nx:titulo xml:lang="es">Metodología ágil en proyectos con clientes</nx:titulo>
+    <nx:texto xml:lang="es">Los proyectos se trabajan en sprints de dos semanas. Al inicio de cada sprint se planean las tareas y al final se muestran avances al cliente. Las retrospectivas sirven para mejorar la forma de trabajar del equipo.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaPortalCliente">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+    <rdfs:label xml:lang="es">Portal del cliente</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-005: Monitoreo de servidores y alertas</rdfs:label>
+    <nx:idDocumento>INF-005</nx:idDocumento>
+    <nx:titulo xml:lang="es">Monitoreo de servidores y alertas</nx:titulo>
+    <nx:texto xml:lang="es">Todos los servidores se monitorean en tiempo real. Se revisan uso de procesador, memoria, disco y tiempo de respuesta. Cuando un valor pasa el límite se manda una alerta al equipo de guardia. Las alertas se revisan cada mes para quitar las que no sirven.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-009: Solución: no se sincronizan los pedidos entre tienda y SAP</rdfs:label>
+    <nx:idDocumento>SOP-009</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: no se sincronizan los pedidos entre tienda y SAP</nx:titulo>
+    <nx:texto xml:lang="es">Los pedidos de la tienda en línea no aparecían en SAP. La interfaz de integración se había detenido por un error de formato en un pedido. Se corrigió el pedido y se reinició la interfaz. Se avisó al cliente y se revisó que todos los pedidos pendientes se cargaran.</nx:texto>
+    <nx:documenta rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionReiniciarInterfaz"/>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#TicketPedidosSAP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#genera">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">genera</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-004: Reporte de incidente: certificado SSL vencido</rdfs:label>
+    <nx:idDocumento>INF-004</nx:idDocumento>
+    <nx:titulo xml:lang="es">Reporte de incidente: certificado SSL vencido</nx:titulo>
+    <nx:texto xml:lang="es">El sitio del cliente mostraba aviso de sitio inseguro porque el certificado SSL venció. Se renovó el certificado y se reinició el balanceador. Para evitarlo se configuró la renovación automática y una alerta treinta días antes del vencimiento.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-005: Guía de atención de tickets en la mesa de ayuda</rdfs:label>
+    <nx:idDocumento>SOP-005</nx:idDocumento>
+    <nx:titulo xml:lang="es">Guía de atención de tickets en la mesa de ayuda</nx:titulo>
+    <nx:texto xml:lang="es">Todo ticket debe registrarse con cliente, sistema afectado y descripción del error. El agente revisa primero la base de conocimiento para ver si la falla ya tiene solución. Si no existe, intenta resolverla y documenta los pasos. Si no puede, escala el ticket con toda la información.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#seReutilizaEn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">se reutiliza en</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-009: Modernización de sistema legado a microservicios</rdfs:label>
+    <nx:idDocumento>DEV-009</nx:idDocumento>
+    <nx:titulo xml:lang="es">Modernización de sistema legado a microservicios</nx:titulo>
+    <nx:texto xml:lang="es">El sistema viejo del cliente se divide en microservicios por módulo. Primero se separa el módulo de clientes y luego el de pedidos. Cada microservicio tiene su propia base de datos y su API. La migración se hace por fases para no detener la operación.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-006: Lecciones aprendidas: migración a la nube de cliente de banca</rdfs:label>
+    <nx:idDocumento>PRY-006</nx:idDocumento>
+    <nx:titulo xml:lang="es">Lecciones aprendidas: migración a la nube de cliente de banca</nx:titulo>
+    <nx:texto xml:lang="es">La migración salió bien porque se hizo por fases y con pruebas en cada paso. Lo que falló fue la comunicación con el área de seguridad del cliente. Para el siguiente proyecto hay que incluir a seguridad desde la primera reunión.</nx:texto>
+    <nx:documenta rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoMigracionNube"/>
+    <nx:mejora rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionAumentarMemoria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Solucion"/>
+    <rdfs:label xml:lang="es">Solución: reiniciar y aumentar memoria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#abre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">abre</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Ticket"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#registra">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">registra</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ClienteRetail">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente"/>
+    <rdfs:label xml:lang="es">Cliente de retail (ejemplo)</rdfs:label>
+    <nx:contrata rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoTiendaEnLinea"/>
+    <nx:abre rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#TicketCuentaBloqueada"/>
+    <nx:abre rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#TicketPedidosSAP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-001: Reporte de incidente: caída del servidor de producción</rdfs:label>
+    <nx:idDocumento>INF-001</nx:idDocumento>
+    <nx:titulo xml:lang="es">Reporte de incidente: caída del servidor de producción</nx:titulo>
+    <nx:texto xml:lang="es">El servidor de producción dejó de responder por falta de memoria. El equipo de operaciones reinició el servicio y aumentó la memoria de la máquina virtual. La caída duró cuarenta minutos. Se agregó una alerta para avisar cuando la memoria pase del ochenta por ciento.</nx:texto>
+    <nx:documenta rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#IncidenteCaidaServidor"/>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaNube"/>
+    <nx:seReutilizaEn rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Organizacion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Organización</rdfs:label>
+    <rdfs:comment xml:lang="es">Empresa donde se implementa el sistema de gestión del conocimiento.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Empleado">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Consultor o empleado</rdfs:label>
+    <rdfs:comment xml:lang="es">Persona que trabaja en Neoris.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-002: Solución: SAP muestra error al generar factura</rdfs:label>
+    <nx:idDocumento>SOP-002</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: SAP muestra error al generar factura</nx:titulo>
+    <nx:texto xml:lang="es">Al generar una factura en SAP aparece un error de autorización. El usuario no tenía el rol de facturación asignado. Se resolvió asignando el rol correcto desde la transacción de usuarios. Se recomienda revisar permisos antes de escalar el ticket.</nx:texto>
+    <nx:describe rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaSAP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#IncidenteCaidaServidor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Incidente"/>
+    <rdfs:label xml:lang="es">Incidente: caída del servidor por falta de memoria</rdfs:label>
+    <nx:ocurreEn rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaNube"/>
+    <nx:seResuelveCon rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionAumentarMemoria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_DEV_006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdfs:label xml:lang="es">DEV-006: Manual de despliegue de aplicaciones web</rdfs:label>
+    <nx:idDocumento>DEV-006</nx:idDocumento>
+    <nx:titulo xml:lang="es">Manual de despliegue de aplicaciones web</nx:titulo>
+    <nx:texto xml:lang="es">Para desplegar una aplicación se construye la imagen, se corren las pruebas y se sube al ambiente de pruebas. Si todo pasa, se despliega a producción con el pipeline de integración continua. Después del despliegue se revisan los registros para confirmar que no hay errores.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-003: Configuración de máquinas virtuales en la nube</rdfs:label>
+    <nx:idDocumento>INF-003</nx:idDocumento>
+    <nx:titulo xml:lang="es">Configuración de máquinas virtuales en la nube</nx:titulo>
+    <nx:texto xml:lang="es">Las máquinas virtuales se crean con plantillas para que todas tengan la misma configuración. Se definen el tamaño, la red y las reglas de firewall. El acceso se da solo con llaves y nunca con contraseña. Cada máquina se etiqueta con el cliente y el ambiente.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Solución de ticket</rdfs:label>
+    <rdfs:comment xml:lang="es">Soluciones a tickets y guías de la mesa de ayuda (SOP).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-008: Política de protección de datos personales</rdfs:label>
+    <nx:idDocumento>POL-008</nx:idDocumento>
+    <nx:titulo xml:lang="es">Política de protección de datos personales</nx:titulo>
+    <nx:texto xml:lang="es">Los datos personales de clientes y empleados solo se usan para el fin autorizado. Se guardan en sistemas seguros y con acceso limitado. Las personas pueden pedir ver, corregir o borrar sus datos. Esta política sigue la ley de protección de datos personales.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Documento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Documento</rdfs:label>
+    <rdfs:comment xml:lang="es">Recurso de conocimiento explícito guardado en el repositorio.</rdfs:comment>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#texto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="es">texto</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#tieneArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene área</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Organizacion"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#afectaA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">afecta a</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Ticket"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ClienteManufactura">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente"/>
+    <rdfs:label xml:lang="es">Cliente de manufactura (ejemplo)</rdfs:label>
+    <nx:contrata rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoImplementacionSAP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Lección aprendida y reporte de avance</rdfs:label>
+    <rdfs:comment xml:lang="es">Lecciones, reportes y plantillas de proyectos (PRY).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaNube">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+    <rdfs:label xml:lang="es">Nube (servidores y bases de datos)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne2276df81047490cbb8cc225c85476b7">
+    <rdf:first rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#DocumentacionTecnica"/>
+    <rdf:rest rdf:nodeID="N39eed1e8fe3d451994e1dec2d97dd5bd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-004: Minuta de reunión de arranque con el cliente</rdfs:label>
+    <nx:idDocumento>PRY-004</nx:idDocumento>
+    <nx:titulo xml:lang="es">Minuta de reunión de arranque con el cliente</nx:titulo>
+    <nx:texto xml:lang="es">En la reunión de arranque se presentaron los equipos, el alcance y el calendario. El cliente pidió reportes de avance cada semana. Se definieron los responsables de cada área. Quedó pendiente que el cliente envíe los accesos a sus sistemas.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#documenta">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">documenta</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Documento"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoTiendaEnLinea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+    <rdfs:label xml:lang="es">Tienda en línea</rdfs:label>
+    <nx:implementa rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaTiendaEnLinea"/>
+    <nx:tieneRiesgo rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#RiesgoIntegracionPagos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Solucion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Solución</rdfs:label>
+    <rdfs:comment xml:lang="es">Forma de resolver un ticket o un incidente.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Incidente">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Incidente o falla</rdfs:label>
+    <rdfs:comment xml:lang="es">Falla en un sistema, como una caída del servidor.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_INF_008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ReporteDeIncidente"/>
+    <rdfs:label xml:lang="es">INF-008: Control de costos de la nube</rdfs:label>
+    <nx:idDocumento>INF-008</nx:idDocumento>
+    <nx:titulo xml:lang="es">Control de costos de la nube</nx:titulo>
+    <nx:texto xml:lang="es">Cada mes se revisa cuánto gasta cada cliente en la nube. Se apagan las máquinas de pruebas fuera del horario laboral. Se eliminan discos y respaldos que ya no se usan. El reporte de costos se comparte con el líder de proyecto.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#perteneceA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">pertenece a</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Empleado"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#trabajaEn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">trabaja en</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Empleado"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDesbloquearCuenta">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Solucion"/>
+    <rdfs:label xml:lang="es">Solución: desbloquear la cuenta y cambiar contraseña</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ConsultorEjemplo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Empleado"/>
+    <rdfs:label xml:lang="es">Consultor (ejemplo)</rdfs:label>
+    <nx:perteneceA rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#AreaSoporteTecnico"/>
+    <nx:trabajaEn rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoTiendaEnLinea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_SOP_006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdfs:label xml:lang="es">SOP-006: Solución: correo de notificaciones no llega al cliente</rdfs:label>
+    <nx:idDocumento>SOP-006</nx:idDocumento>
+    <nx:titulo xml:lang="es">Solución: correo de notificaciones no llega al cliente</nx:titulo>
+    <nx:texto xml:lang="es">Los correos automáticos de confirmación no llegaban a los clientes. Se encontró que caían en la carpeta de spam. Se configuró el registro SPF del dominio y los correos empezaron a llegar. Documentar el caso para clientes con el mismo proveedor de correo.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_POL_006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdfs:label xml:lang="es">POL-006: Proceso de incorporación de nuevos empleados</rdfs:label>
+    <nx:idDocumento>POL-006</nx:idDocumento>
+    <nx:titulo xml:lang="es">Proceso de incorporación de nuevos empleados</nx:titulo>
+    <nx:texto xml:lang="es">El primer día el nuevo empleado recibe su equipo, sus accesos y una plática de bienvenida. La primera semana toma los cursos de seguridad y de la metodología de trabajo. Se le asigna un mentor que le ayuda a conocer los proyectos y las herramientas.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-002: Plantilla de estimación de tiempos y costos</rdfs:label>
+    <nx:idDocumento>PRY-002</nx:idDocumento>
+    <nx:titulo xml:lang="es">Plantilla de estimación de tiempos y costos</nx:titulo>
+    <nx:texto xml:lang="es">La plantilla ayuda a estimar cuánto tiempo y dinero cuesta un proyecto. Se llena por fases: análisis, desarrollo, pruebas y salida a producción. Usa datos de proyectos pasados parecidos. El líder de proyecto la revisa con el cliente antes de firmar.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N634d1965de094bb2b7e4e7a50a96b286">
+    <rdf:first rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#PoliticaInterna"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Doc_PRY_007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdfs:label xml:lang="es">PRY-007: Cierre de proyecto y entrega al cliente</rdfs:label>
+    <nx:idDocumento>PRY-007</nx:idDocumento>
+    <nx:titulo xml:lang="es">Cierre de proyecto y entrega al cliente</nx:titulo>
+    <nx:texto xml:lang="es">Al cerrar el proyecto se entrega la documentación, los accesos y el manual de usuario. El cliente firma el acta de aceptación. El equipo hace una reunión de lecciones aprendidas. El soporte pasa a la mesa de ayuda con toda la información del sistema.</nx:texto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#esAreaDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">es área de</rdfs:label>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#tieneArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#RiesgoIntegracionPagos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Riesgo"/>
+    <rdfs:label xml:lang="es">Riesgo en la integración de pagos</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Sistema o tecnología</rdfs:label>
+    <rdfs:comment xml:lang="es">Sistema o plataforma, por ejemplo SAP, la nube o una app.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N703ef5c791f24b809d145aeceadc5586">
+    <rdf:first rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#LeccionAprendida"/>
+    <rdf:rest rdf:nodeID="N634d1965de094bb2b7e4e7a50a96b286"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ConceptoDelDominio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Concepto del dominio</rdfs:label>
+    <rdfs:comment xml:lang="es">Conceptos principales con los que trabaja la empresa.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#atiendeA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">atiende a</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Organizacion"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb395e48230b04424958d6f3e916239d8">
+    <rdf:first rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#SolucionDeTicket"/>
+    <rdf:rest rdf:nodeID="Ne2276df81047490cbb8cc225c85476b7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#tieneRiesgo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="es">tiene riesgo</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Proyecto"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Riesgo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#ClienteBanca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Cliente"/>
+    <rdfs:label xml:lang="es">Cliente de banca (ejemplo)</rdfs:label>
+    <nx:contrata rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#ProyectoMigracionNube"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N072a8e187015407cbcf7a1ea38e465c6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nb395e48230b04424958d6f3e916239d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/vicente/ontologias/neoris#SistemaSAP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vicente/ontologias/neoris#Sistema"/>
+    <rdfs:label xml:lang="es">SAP</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
