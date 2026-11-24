@@ -1,0 +1,2 @@
+Gestión de identidades y permisos en la nube
+Cada persona tiene su propio usuario en la consola de la nube y nunca se comparten cuentas. Los permisos se dan por rol y solo lo necesario para trabajar. Cada tres meses se revisan y se quitan los permisos que ya no se usan.

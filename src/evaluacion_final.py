@@ -6,7 +6,7 @@ Compara el sistema del avance (TF-IDF simple) contra el sistema final (motor hí
      El corte de resultados se ajustó con otras 15 consultas (datos/consultas_validacion.json),
      así las consultas de prueba solo se usan para medir.
   2. Clasificación: Precision y Recall con validación cruzada de 5 partes repetida 5 veces
-     (con 42 documentos, una sola partición cambia mucho el resultado)
+     (con 100 documentos, una sola partición cambia mucho el resultado)
   3. Recomendaciones: qué tan seguido los documentos sugeridos son de la misma categoría
 
 Uso:  python src/evaluacion_final.py
@@ -21,9 +21,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.model_selection import RepeatedStratifiedKFold, cross_validate
-from sklearn.pipeline import make_pipeline
+from sklearn.pipeline import make_pipeline, make_union
 
-from motor import Motor, dividir, tokens
+from motor import Motor, dividir, normalizar
 from utilidades import CARPETA_RESULTADOS, PALABRAS_VACIAS, RAIZ
 
 K = 5          # documentos que regresa el sistema por consulta
@@ -44,7 +44,7 @@ def recuperados_avance(vec, X, ids, consulta):
 
 
 def metricas(ids, relevantes, recuperados):
-    """Vectores 1/0 sobre los 42 documentos, igual que en la Actividad 4."""
+    """Vectores 1/0 sobre los 100 documentos, igual que en la Actividad 4."""
     y_true = [int(i in relevantes) for i in ids]
     y_pred = [int(i in recuperados) for i in ids]
     return (precision_score(y_true, y_pred, zero_division=0), recall_score(y_true, y_pred), f1_score(y_true, y_pred))
@@ -87,7 +87,9 @@ def evaluar():
     modelos = {
         "avance": make_pipeline(TfidfVectorizer(strip_accents="unicode", stop_words=PALABRAS_VACIAS, ngram_range=(1, 2),
                                                 sublinear_tf=True), LogisticRegression(max_iter=2000, C=10)),
-        "final": make_pipeline(TfidfVectorizer(analyzer=tokens, sublinear_tf=True), LogisticRegression(max_iter=2000, C=10)),
+        "final": make_pipeline(make_union(TfidfVectorizer(strip_accents="unicode", stop_words=PALABRAS_VACIAS, ngram_range=(1, 2), sublinear_tf=True),
+                                          TfidfVectorizer(analyzer="char_wb", ngram_range=(3, 5), preprocessor=normalizar, sublinear_tf=True)),
+                               LogisticRegression(max_iter=2000, C=10)),
     }
     clasificacion = {}
     for nombre, modelo in modelos.items():

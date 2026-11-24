@@ -1,0 +1,2 @@
+Arquitectura serverless con funciones en la nube
+Algunos procesos pequeños se ejecutan como funciones que solo corren cuando se necesitan. No hay que administrar servidores y se paga por ejecución. Se usan para procesar archivos, enviar avisos y tareas programadas.

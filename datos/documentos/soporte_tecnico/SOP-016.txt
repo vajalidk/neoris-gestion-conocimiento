@@ -1,0 +1,2 @@
+Solución: no se puede acceder a una carpeta compartida
+El usuario no podía abrir una carpeta compartida del proyecto. No estaba en el grupo con permisos. El líder del proyecto aprobó el acceso por ticket y se agregó al grupo. Los cambios tardan hasta una hora en aplicarse.

@@ -1,0 +1,2 @@
+Reporte de incidente: disco lleno en servidor de reportes
+El servidor de reportes dejó de generar archivos porque el disco llegó al cien por ciento. Los archivos temporales no se estaban borrando. Se limpió el disco y se programó una tarea que borra temporales de más de siete días.

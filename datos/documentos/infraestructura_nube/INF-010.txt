@@ -1,0 +1,2 @@
+Configuración de red privada y VPN
+Los servidores internos solo se pueden usar desde la red privada de la empresa. Los consultores que trabajan fuera se conectan por VPN con su usuario y un segundo factor. Las conexiones se cierran después de ocho horas.

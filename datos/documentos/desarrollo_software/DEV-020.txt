@@ -1,0 +1,2 @@
+Uso de asistentes de IA para programar
+Los desarrolladores pueden usar asistentes de inteligencia artificial para escribir y revisar código. Todo el código generado pasa por revisión y pruebas como cualquier otro. No se pegan datos de clientes ni código confidencial en herramientas no aprobadas.

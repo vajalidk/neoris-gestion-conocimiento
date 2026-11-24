@@ -1,0 +1,2 @@
+Solución: la laptop no reconoce el monitor externo
+Al conectar el monitor externo la pantalla se quedaba negra. El cable HDMI estaba dañado y el controlador de video era viejo. Se cambió el cable y se actualizó el controlador. Probar con otro puerto antes de pedir un monitor nuevo.

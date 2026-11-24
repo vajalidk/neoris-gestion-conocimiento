@@ -1,0 +1,2 @@
+Lecciones aprendidas: proyecto de analítica de datos para retail
+El cliente quería tableros de ventas, pero sus datos estaban incompletos y duplicados. Pasamos la mitad del tiempo limpiando información. Aprendimos a revisar la calidad de los datos antes de firmar el calendario.

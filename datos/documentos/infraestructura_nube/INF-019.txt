@@ -1,0 +1,2 @@
+Actualización de parches del sistema operativo
+Los parches de seguridad se instalan el segundo martes de cada mes. Primero se aplican en ambiente de pruebas y una semana después en producción. Los parches críticos se instalan en menos de cuarenta y ocho horas.

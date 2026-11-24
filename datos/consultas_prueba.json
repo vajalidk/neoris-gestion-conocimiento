@@ -1,5 +1,5 @@
 [
-  {"consulta": "qué hacer cuando falla un servidor en la nube", "tipo": "normal (Actividad 4)", "relevantes": ["INF-001", "INF-002", "INF-005", "INF-006"]},
+  {"consulta": "qué hacer cuando falla un servidor en la nube", "tipo": "normal (Actividad 4)", "relevantes": ["INF-001", "INF-002", "INF-005", "INF-006", "INF-013"]},
   {"consulta": "el usuario no puede entrar porque su cuenta está bloqueada", "tipo": "normal", "relevantes": ["SOP-008", "SOP-001"]},
   {"consulta": "los pedidos de la tienda no llegan a SAP", "tipo": "normal", "relevantes": ["SOP-009", "DEV-007", "DEV-001"]},
   {"consulta": "cómo estimar el tiempo y costo de un proyecto nuevo", "tipo": "normal", "relevantes": ["PRY-002", "PRY-001"]},

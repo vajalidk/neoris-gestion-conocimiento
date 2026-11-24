@@ -1,0 +1,2 @@
+Componente reutilizable: envío de notificaciones
+Este componente envía avisos por correo, SMS y notificaciones push con una sola llamada. Usa plantillas para que el texto sea igual en todos los proyectos. Guarda un registro de cada envío y reintenta cuando el proveedor no responde.

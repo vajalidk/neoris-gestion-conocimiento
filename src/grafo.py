@@ -1,11 +1,13 @@
 """
 Grafo de conocimiento de Neoris (amplía la ontología de la Fase 1).
 
-Nodos:   Neoris, 5 categorías (áreas), 42 documentos y 15 conceptos del dominio.
+Nodos:   Neoris, 5 categorías (áreas), 100 documentos y 15 conceptos del dominio.
 Aristas: Neoris -tiene área-> categoría, categoría -contiene-> documento,
          documento -menciona-> concepto, documento -similar a- documento,
          concepto -relación de la ontología-> concepto.
 """
+import re
+
 import networkx as nx
 from pyvis.network import Network
 
@@ -57,7 +59,7 @@ def construir(motor):
         G.add_edge(cat, d["id"], label="contiene")
         texto = normalizar(d["texto"])
         for c, claves in CONCEPTOS.items():
-            if any(k in texto for k in claves):
+            if any(re.search(rf"\b{k}", texto) for k in claves):  # \b: palabra completa, "api" no cuenta dentro de "rapido"
                 G.add_edge(d["id"], c, label="menciona", color="#C9CED8")
         j = max((j for j in range(len(motor.docs)) if j != i), key=lambda j: motor.sim_docs[i][j])
         if motor.sim_docs[i][j] >= SIMILITUD_MINIMA:

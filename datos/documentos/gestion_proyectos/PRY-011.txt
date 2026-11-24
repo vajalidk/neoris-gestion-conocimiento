@@ -1,0 +1,2 @@
+Lecciones aprendidas: retraso en proyecto de logística
+El proyecto de rastreo de envíos se retrasó dos meses. Los requerimientos cambiaron muchas veces y no había un responsable del lado del cliente. Aprendimos a nombrar un dueño de producto desde el arranque y a congelar el alcance de cada entrega.

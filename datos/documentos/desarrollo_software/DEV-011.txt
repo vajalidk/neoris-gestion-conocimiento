@@ -1,0 +1,2 @@
+Estándar de diseño de APIs REST
+Las APIs usan nombres en plural para los recursos y verbos HTTP para las acciones. Las respuestas regresan códigos de estado claros, como 404 cuando algo no existe. Toda API nueva lleva versión en la ruta y su documentación en formato OpenAPI.

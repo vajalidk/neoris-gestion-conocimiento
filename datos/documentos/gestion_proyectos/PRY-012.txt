@@ -1,0 +1,2 @@
+Indicadores para medir el avance del proyecto
+El avance se mide con el porcentaje de tareas terminadas, las horas usadas contra las planeadas y los defectos abiertos. Un semáforo verde, amarillo o rojo resume el estado. Los indicadores se revisan cada semana con el líder del proyecto.

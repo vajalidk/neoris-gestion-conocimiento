@@ -1,0 +1,2 @@
+Registro centralizado de logs
+Todas las aplicaciones mandan sus logs a una plataforma central. Ahí se pueden buscar errores por fecha, cliente o aplicación. Los logs se guardan noventa días y no deben contener contraseñas ni datos personales.

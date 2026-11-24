@@ -10,7 +10,7 @@
   {"consulta": "qué aprendimos de la migración del banco", "relevantes": ["PRY-006"]},
   {"consulta": "la app del celular se cierra sola", "relevantes": ["SOP-003"]},
   {"consulta": "cómo bajar lo que gastamos en la nube", "relevantes": ["INF-008"]},
-  {"consulta": "pasos para dar de alta a un empleado nuevo", "relevantes": ["POL-006"]},
+  {"consulta": "pasos para dar de alta a un empleado nuevo", "relevantes": ["POL-006", "POL-017"]},
   {"consulta": "el carrito cobra mal el impuesto", "relevantes": ["DEV-005"]},
   {"consulta": "SAP marca error al facturar", "relevantes": ["SOP-002"]},
   {"consulta": "cómo manejar los riesgos de un proyecto", "relevantes": ["PRY-005"]}

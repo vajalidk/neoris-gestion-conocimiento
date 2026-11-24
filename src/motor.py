@@ -17,6 +17,7 @@ import re
 import unicodedata
 
 import numpy as np
+from scipy.sparse import hstack
 from nltk.stem.snowball import SnowballStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -28,7 +29,7 @@ RAIZ_PALABRA = SnowballStemmer("spanish").stem
 VACIAS = set(PALABRAS_VACIAS) | {"que", "hacer", "hago", "necesito", "quiero", "como", "cual", "cuales"}
 UMBRAL_CLASIFICACION = 0.45  # si la confianza es menor, va a revisión manual (los documentos correctos salen con 50% a 75%)
 PESO_PALABRAS, PESO_LETRAS = 0.7, 0.3
-CORTE_RELATIVO = 0.55  # solo se muestran documentos con al menos 55% del puntaje del mejor (ajustado con datos/consultas_validacion.json)
+CORTE_RELATIVO = 0.75  # solo se muestran documentos con al menos 75% del puntaje del mejor (ajustado con datos/consultas_validacion.json)
 
 # Incidente 2: palabras que usa la gente -> palabras que usan los documentos de Neoris
 SINONIMOS = {
@@ -87,8 +88,11 @@ class Motor:
         # Similitud entre documentos (para recomendaciones), se calcula una sola vez
         self.sim_docs = self._similitud(self.X_palabras, self.X_letras, self.X_palabras, self.X_letras)
 
-        # Clasificador: regresión logística sobre las palabras con raíz
-        self.clf = LogisticRegression(max_iter=2000, C=10).fit(self.X_palabras, [d["categoria"] for d in self.docs])
+        # Clasificador: regresión logística sobre palabras completas (y pares de palabras) + pedazos de letras.
+        # Con 100 documentos esta combinación fue la mejor en validación cruzada.
+        self.vec_clf = TfidfVectorizer(strip_accents="unicode", stop_words=PALABRAS_VACIAS, ngram_range=(1, 2), sublinear_tf=True)
+        X_clf = hstack([self.vec_clf.fit_transform(textos), self.X_letras]).tocsr()
+        self.clf = LogisticRegression(max_iter=2000, C=10).fit(X_clf, [d["categoria"] for d in self.docs])
         self.embeddings = cargar_embeddings(textos)  # opcional, None si no está disponible
 
     @staticmethod
@@ -117,7 +121,7 @@ class Motor:
 
     def buscar(self, consulta, k=5, minimo=0.08, relativo=CORTE_RELATIVO, ligero=False):
         """Regresa hasta k documentos parecidos con su puntaje y los términos en común.
-        Se descartan los que no llegan al puntaje mínimo ni al 55% del mejor (menos ruido)."""
+        Se descartan los que no llegan al puntaje mínimo ni al 75% del mejor (menos ruido)."""
         s = self._vector_consulta(consulta, ligero)
         orden = s.argsort()[::-1][:k]
         corte = max(minimo, relativo * s[orden[0]])
@@ -149,7 +153,7 @@ class Motor:
 
     def clasificar(self, texto):
         """Asigna categoría. Si la confianza es baja, lo marca para revisión manual."""
-        prob = self.clf.predict_proba(self.vec_palabras.transform([texto]))[0]
+        prob = self.clf.predict_proba(hstack([self.vec_clf.transform([texto]), self.vec_letras.transform([texto])]))[0]
         orden = prob.argsort()[::-1]
         return {
             "categoria": NOMBRES_CATEGORIAS[self.clf.classes_[orden[0]]],

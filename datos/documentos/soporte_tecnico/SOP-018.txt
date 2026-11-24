@@ -1,0 +1,2 @@
+Solución: el sistema de nómina no deja descargar recibos
+Los empleados no podían descargar sus recibos de nómina en PDF. El navegador bloqueaba las ventanas emergentes del sistema. Se permitió el sitio en la configuración del navegador. También funciona usando otro navegador.

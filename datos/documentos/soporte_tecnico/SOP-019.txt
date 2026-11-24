@@ -1,0 +1,2 @@
+Solución: mensaje de virus detectado en archivo adjunto
+El antivirus bloqueó un archivo adjunto de un correo externo. El archivo tenía una macro sospechosa. No se abrió y se reportó al área de seguridad. Nunca habilitar macros en archivos de remitentes desconocidos.

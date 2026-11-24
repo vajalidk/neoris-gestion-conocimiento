@@ -1,0 +1,2 @@
+Escalamiento automático en temporada alta
+En el Buen Fin la tienda en línea del cliente recibió cinco veces más visitas. El escalamiento automático agregó servidores cuando el uso pasó del setenta por ciento. Después de la temporada los quitó solo para no pagar de más.

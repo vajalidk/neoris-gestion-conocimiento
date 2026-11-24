@@ -1,0 +1,2 @@
+Optimización de consultas lentas en la base de datos
+Una pantalla de inventario tardaba más de diez segundos en abrir. El análisis mostró consultas sin índices y datos que se pedían uno por uno. Se agregaron índices y se juntaron las consultas. El tiempo bajó a menos de un segundo.

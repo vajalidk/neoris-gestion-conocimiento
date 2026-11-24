@@ -1,0 +1,2 @@
+Guía de desarrollo de aplicaciones móviles
+Las aplicaciones móviles se construyen con un framework multiplataforma para Android y iOS. Las pantallas deben funcionar sin conexión y guardar datos para sincronizarlos después. Antes de publicar en las tiendas se prueban en teléfonos de gama baja.

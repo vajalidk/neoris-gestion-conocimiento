@@ -1,0 +1,2 @@
+Solución: la computadora está muy lenta
+El equipo tardaba mucho en abrir programas. Tenía el disco casi lleno y muchos programas al inicio. Se liberó espacio, se quitaron programas del arranque y se actualizó el sistema. Si sigue lenta, revisar si necesita más memoria RAM.

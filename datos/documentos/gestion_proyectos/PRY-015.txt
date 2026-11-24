@@ -1,0 +1,2 @@
+Plantilla de propuesta comercial
+La propuesta incluye el problema del cliente, la solución, el equipo, el calendario y el precio. Se escribe en lenguaje sencillo y sin tecnicismos innecesarios. Antes de enviarla la revisan el líder técnico y el área comercial.

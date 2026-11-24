@@ -1,0 +1,2 @@
+Uso de contenedores con Docker y Kubernetes
+Las aplicaciones se empaquetan en contenedores para que funcionen igual en cualquier ambiente. Kubernetes reparte la carga y reinicia los contenedores que fallan. Cada contenedor tiene límites de memoria y procesador para no afectar a los demás.

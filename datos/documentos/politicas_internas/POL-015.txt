@@ -1,0 +1,2 @@
+Política de uso de inteligencia artificial generativa
+Solo se pueden usar herramientas de IA aprobadas por el área de seguridad. No se comparten datos de clientes, contraseñas ni código confidencial con estas herramientas. Todo resultado de la IA se revisa antes de entregarse.

@@ -1,0 +1,2 @@
+Documentación técnica: pasarela de pagos
+La tienda en línea cobra con tarjeta a través de una pasarela de pagos externa. El sistema nunca guarda el número completo de la tarjeta. La pasarela avisa por un webhook si el pago fue aprobado o rechazado y el pedido cambia de estado.

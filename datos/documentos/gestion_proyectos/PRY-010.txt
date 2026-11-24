@@ -1,0 +1,2 @@
+Control de cambios en el alcance
+Cuando el cliente pide algo que no estaba en el contrato se llena una solicitud de cambio. El equipo calcula el impacto en tiempo y costo. El cambio solo se trabaja cuando el cliente lo aprueba y firma.

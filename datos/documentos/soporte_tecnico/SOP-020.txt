@@ -1,0 +1,2 @@
+Solución: el lector de código de barras no lee
+En el almacén el lector no capturaba los códigos en el sistema de inventario. Estaba configurado con otro idioma de teclado. Se reconfiguró escaneando el código de ajuste del manual. Revisar también que el campo del sistema tenga el cursor activo.

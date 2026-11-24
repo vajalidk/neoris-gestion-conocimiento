@@ -1,0 +1,2 @@
+Solución: el portal muestra error 500
+Al guardar un formulario, el portal del cliente mostraba error 500. En los logs se vio que un campo de texto superaba el tamaño permitido en la base de datos. Se amplió el campo y se agregó una validación en el formulario.

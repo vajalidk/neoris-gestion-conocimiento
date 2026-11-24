@@ -1,0 +1,2 @@
+Buenas prácticas de seguridad en el código
+Todos los datos que escribe el usuario se validan antes de usarlos. Las consultas a la base de datos usan parámetros para evitar inyección SQL. Las contraseñas se guardan cifradas y los secretos se leen de variables de entorno, nunca del código.

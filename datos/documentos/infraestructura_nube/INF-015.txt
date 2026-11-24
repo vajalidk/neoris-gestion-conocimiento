@@ -1,0 +1,2 @@
+Red de distribución de contenido (CDN)
+Las imágenes y archivos de las páginas web se sirven desde una CDN. Así los usuarios descargan desde el punto más cercano y la página carga más rápido. Cuando se publica una versión nueva se limpia la caché de la CDN.

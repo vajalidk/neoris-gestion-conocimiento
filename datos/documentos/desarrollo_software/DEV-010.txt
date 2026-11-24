@@ -1,0 +1,2 @@
+Guía de control de versiones con Git
+Cada cambio se trabaja en una rama propia que sale de la rama principal. Los mensajes de commit explican qué se cambió y por qué. Antes de unir una rama se actualiza con los últimos cambios para evitar conflictos. Nunca se suben contraseñas ni llaves al repositorio.

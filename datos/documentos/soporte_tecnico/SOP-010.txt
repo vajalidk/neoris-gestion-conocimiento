@@ -1,0 +1,2 @@
+Solución: la VPN no conecta desde casa
+El consultor no podía conectarse a la VPN desde su casa. Su cliente de VPN tenía una versión vieja que ya no aceptaba el servidor. Se instaló la versión nueva y se reinició la computadora. Si el problema sigue, revisar que el segundo factor esté activo.

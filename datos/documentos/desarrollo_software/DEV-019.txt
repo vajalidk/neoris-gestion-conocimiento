@@ -1,0 +1,2 @@
+Guía de accesibilidad en interfaces web
+Las páginas deben poder usarse solo con teclado y con lectores de pantalla. Las imágenes llevan texto alternativo y los colores tienen buen contraste. Los formularios muestran mensajes de error claros junto al campo que falló.

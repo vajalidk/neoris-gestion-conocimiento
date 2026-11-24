@@ -29,7 +29,7 @@ def responder(motor, pregunta, ligero=False):
         return {"texto": "¡Hola! Soy el asistente de conocimiento de Neoris. Pregúntame sobre soporte, "
                          "desarrollo, infraestructura, proyectos o políticas internas.", "fuentes": [], "modo": "regla"}
     if re.search(AYUDA, p):
-        return {"texto": "Busco en los 42 documentos de Neoris y te respondo con lo que dicen. Ejemplos:\n"
+        return {"texto": f"Busco en los {len(motor.docs)} documentos de Neoris y te respondo con lo que dicen. Ejemplos:\n"
                          "- ¿Qué hago si un usuario está bloqueado?\n- ¿Cómo se respaldan las bases de datos?\n"
                          "- ¿Cuál es la política de trabajo remoto?", "fuentes": [], "modo": "regla"}
 

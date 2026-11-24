@@ -1,0 +1,2 @@
+Gestión del presupuesto del proyecto
+El presupuesto se revisa cada mes comparando lo gastado contra lo planeado. Si el gasto supera el diez por ciento se avisa a la dirección. Las horas extra y los viajes se aprueban antes de hacerse.

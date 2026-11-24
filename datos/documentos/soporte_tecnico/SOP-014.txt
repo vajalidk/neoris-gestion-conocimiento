@@ -1,0 +1,2 @@
+Solución: Teams no tiene audio en las juntas
+En las juntas de Teams no se escuchaba a los demás. El audífono no estaba elegido como dispositivo de salida. Se cambió en la configuración de dispositivos de Teams. También se recomienda actualizar los controladores de audio.

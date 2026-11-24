@@ -1,0 +1,2 @@
+Reporte de incidente: falla de DNS
+Durante dos horas los clientes no pudieron entrar al portal aunque los servidores funcionaban. Un registro DNS se borró por error durante un cambio. Se restauró el registro y ahora los cambios de DNS pasan por revisión de dos personas.

@@ -1,0 +1,2 @@
+Integración continua con pipelines automáticos
+Cada vez que se sube código, un pipeline compila el proyecto y corre las pruebas. Si alguna prueba falla, el cambio no se puede unir a la rama principal. El pipeline también revisa el estilo del código y busca librerías con vulnerabilidades conocidas.

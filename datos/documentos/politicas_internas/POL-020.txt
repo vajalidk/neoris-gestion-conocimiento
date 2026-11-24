@@ -1,0 +1,2 @@
+Política de continuidad del negocio
+Cada área tiene un plan para seguir trabajando si falla la oficina o un sistema clave. El plan dice quién toma decisiones y cómo se avisa a los clientes. Se prueba una vez al año con un simulacro.

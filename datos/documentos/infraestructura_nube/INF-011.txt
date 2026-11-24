@@ -1,0 +1,2 @@
+Infraestructura como código con Terraform
+Los recursos de la nube se crean con archivos de Terraform guardados en el repositorio. Así cualquier ambiente se puede volver a crear igual. Los cambios a la infraestructura pasan por revisión antes de aplicarse.

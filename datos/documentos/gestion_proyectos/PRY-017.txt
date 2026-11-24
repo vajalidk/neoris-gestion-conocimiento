@@ -1,0 +1,2 @@
+Ceremonias de Scrum en el equipo
+Cada día hay una reunión corta para decir qué se hizo y qué bloquea. Cada dos semanas se planea el sprint, se muestra el avance al cliente y se hace una retrospectiva. Las reuniones empiezan y terminan a tiempo.

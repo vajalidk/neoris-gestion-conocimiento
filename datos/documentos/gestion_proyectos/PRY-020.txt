@@ -1,0 +1,2 @@
+Encuesta de satisfacción del cliente
+Al terminar cada fase se envía una encuesta corta al cliente. Se pregunta por la calidad, la comunicación y el cumplimiento de fechas. Las respuestas bajas se revisan con el líder del proyecto para corregir el rumbo.

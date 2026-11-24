@@ -1,0 +1,2 @@
+Solución: Outlook no sincroniza el calendario
+Las reuniones nuevas no aparecían en el calendario de Outlook. El perfil de correo estaba dañado. Se creó un perfil nuevo y se volvió a sincronizar. Se recomienda no abrir el mismo buzón en dos perfiles.

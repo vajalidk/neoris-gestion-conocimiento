@@ -1,0 +1,2 @@
+Solución: no se puede instalar un programa
+El usuario recibía un mensaje de permisos al instalar un programa. Los equipos no tienen permisos de administrador por seguridad. La instalación se pide por ticket y la mesa de ayuda la hace si el programa está aprobado.

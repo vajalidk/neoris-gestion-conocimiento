@@ -1,0 +1,2 @@
+Corrección de bug: fechas con zona horaria incorrecta
+Los pedidos de clientes en otros países mostraban la fecha de un día antes. El sistema guardaba la hora local en lugar de la hora universal. Se corrigió guardando todo en UTC y convirtiendo solo al mostrar la fecha. Se agregaron pruebas con varias zonas horarias.
