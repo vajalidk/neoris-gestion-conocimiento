@@ -1,0 +1,438 @@
+{
+  "recuperacion": {
+    "avance": {
+      "precision": 0.49,
+      "recall": 0.725,
+      "f1": 0.535
+    },
+    "final": {
+      "precision": 0.91,
+      "recall": 0.608,
+      "f1": 0.7
+    },
+    "consultas": [
+      {
+        "consulta": "qué hacer cuando falla un servidor en la nube",
+        "tipo": "normal (Actividad 4)",
+        "relevantes": [
+          "INF-001",
+          "INF-002",
+          "INF-005",
+          "INF-006"
+        ],
+        "recuperados_avance": [
+          "INF-001",
+          "INF-007",
+          "INF-006",
+          "INF-002",
+          "INF-008"
+        ],
+        "recuperados_final": [
+          "INF-005",
+          "INF-001",
+          "INF-007",
+          "PRY-006",
+          "INF-006"
+        ],
+        "avance": [
+          0.6,
+          0.75,
+          0.667
+        ],
+        "final": [
+          0.6,
+          0.75,
+          0.667
+        ],
+        "no_encontrados_final": [
+          "INF-002"
+        ]
+      },
+      {
+        "consulta": "el usuario no puede entrar porque su cuenta está bloqueada",
+        "tipo": "normal",
+        "relevantes": [
+          "SOP-008",
+          "SOP-001"
+        ],
+        "recuperados_avance": [
+          "SOP-008",
+          "SOP-001",
+          "PRY-007",
+          "SOP-004",
+          "SOP-007"
+        ],
+        "recuperados_final": [
+          "SOP-008"
+        ],
+        "avance": [
+          0.4,
+          1.0,
+          0.571
+        ],
+        "final": [
+          1.0,
+          0.5,
+          0.667
+        ],
+        "no_encontrados_final": [
+          "SOP-001"
+        ]
+      },
+      {
+        "consulta": "los pedidos de la tienda no llegan a SAP",
+        "tipo": "normal",
+        "relevantes": [
+          "SOP-009",
+          "DEV-007",
+          "DEV-001"
+        ],
+        "recuperados_avance": [
+          "SOP-009",
+          "DEV-007",
+          "DEV-001",
+          "PRY-001",
+          "PRY-003"
+        ],
+        "recuperados_final": [
+          "SOP-009"
+        ],
+        "avance": [
+          0.6,
+          1.0,
+          0.75
+        ],
+        "final": [
+          1.0,
+          0.333,
+          0.5
+        ],
+        "no_encontrados_final": [
+          "DEV-007",
+          "DEV-001"
+        ]
+      },
+      {
+        "consulta": "cómo estimar el tiempo y costo de un proyecto nuevo",
+        "tipo": "normal",
+        "relevantes": [
+          "PRY-002",
+          "PRY-001"
+        ],
+        "recuperados_avance": [
+          "PRY-002",
+          "PRY-003",
+          "INF-005",
+          "POL-007",
+          "POL-006"
+        ],
+        "recuperados_final": [
+          "PRY-002",
+          "INF-008"
+        ],
+        "avance": [
+          0.2,
+          0.5,
+          0.286
+        ],
+        "final": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "no_encontrados_final": [
+          "PRY-001"
+        ]
+      },
+      {
+        "consulta": "cómo subir una aplicación a producción",
+        "tipo": "normal",
+        "relevantes": [
+          "DEV-006",
+          "DEV-008"
+        ],
+        "recuperados_avance": [
+          "DEV-006",
+          "SOP-003",
+          "INF-001",
+          "DEV-002",
+          "PRY-002"
+        ],
+        "recuperados_final": [
+          "DEV-006"
+        ],
+        "avance": [
+          0.2,
+          0.5,
+          0.286
+        ],
+        "final": [
+          1.0,
+          0.5,
+          0.667
+        ],
+        "no_encontrados_final": [
+          "DEV-008"
+        ]
+      },
+      {
+        "consulta": "se cayo el servidr por falta de memorya",
+        "tipo": "faltas de ortografía",
+        "relevantes": [
+          "INF-001",
+          "INF-005"
+        ],
+        "recuperados_avance": [
+          "INF-001"
+        ],
+        "recuperados_final": [
+          "INF-001"
+        ],
+        "avance": [
+          1.0,
+          0.5,
+          0.667
+        ],
+        "final": [
+          1.0,
+          0.5,
+          0.667
+        ],
+        "no_encontrados_final": [
+          "INF-005"
+        ]
+      },
+      {
+        "consulta": "me quieren hackear el servidor",
+        "tipo": "sinónimo",
+        "relevantes": [
+          "INF-007",
+          "POL-001"
+        ],
+        "recuperados_avance": [
+          "INF-001",
+          "INF-007"
+        ],
+        "recuperados_final": [
+          "INF-007"
+        ],
+        "avance": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "final": [
+          1.0,
+          0.5,
+          0.667
+        ],
+        "no_encontrados_final": [
+          "POL-001"
+        ]
+      },
+      {
+        "consulta": "política de home office",
+        "tipo": "sinónimo (inglés)",
+        "relevantes": [
+          "POL-002"
+        ],
+        "recuperados_avance": [
+          "POL-001",
+          "POL-008",
+          "POL-002",
+          "POL-005",
+          "POL-003"
+        ],
+        "recuperados_final": [
+          "POL-002"
+        ],
+        "avance": [
+          0.2,
+          1.0,
+          0.333
+        ],
+        "final": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "no_encontrados_final": []
+      },
+      {
+        "consulta": "backup de la base de datos",
+        "tipo": "sinónimo (inglés)",
+        "relevantes": [
+          "INF-002",
+          "INF-006"
+        ],
+        "recuperados_avance": [
+          "DEV-009",
+          "POL-008",
+          "SOP-005",
+          "INF-002",
+          "POL-001"
+        ],
+        "recuperados_final": [
+          "INF-002"
+        ],
+        "avance": [
+          0.2,
+          0.5,
+          0.286
+        ],
+        "final": [
+          1.0,
+          0.5,
+          0.667
+        ],
+        "no_encontrados_final": [
+          "INF-006"
+        ]
+      },
+      {
+        "consulta": "la cuenta está bloqueada y también venció el certificado SSL",
+        "tipo": "dos temas",
+        "relevantes": [
+          "SOP-008",
+          "INF-004"
+        ],
+        "recuperados_avance": [
+          "INF-004",
+          "SOP-008"
+        ],
+        "recuperados_final": [
+          "SOP-008",
+          "INF-004"
+        ],
+        "avance": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "final": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "no_encontrados_final": []
+      }
+    ],
+    "validacion": {
+      "precision": 0.877,
+      "recall": 0.967,
+      "consultas": 15
+    }
+  },
+  "clasificacion": {
+    "avance": {
+      "precision": 0.831,
+      "recall": 0.836,
+      "f1": 0.808,
+      "accuracy": 0.836
+    },
+    "final": {
+      "precision": 0.912,
+      "recall": 0.904,
+      "f1": 0.885,
+      "accuracy": 0.888
+    }
+  },
+  "recomendaciones": {
+    "precision_misma_categoria": 0.69,
+    "casos": {
+      "INF-001": [
+        [
+          "INF-005",
+          0.255,
+          [
+            "servidores",
+            "alertas",
+            "memoria",
+            "pasa"
+          ]
+        ],
+        [
+          "INF-007",
+          0.159,
+          [
+            "reporte",
+            "incidente",
+            "servidor",
+            "operaciones"
+          ]
+        ],
+        [
+          "INF-003",
+          0.129,
+          [
+            "máquinas",
+            "virtuales"
+          ]
+        ]
+      ],
+      "SOP-009": [
+        [
+          "DEV-007",
+          0.255,
+          [
+            "integración",
+            "sap",
+            "pedidos",
+            "clientes"
+          ]
+        ],
+        [
+          "DEV-001",
+          0.172,
+          [
+            "pedidos",
+            "formato",
+            "errores"
+          ]
+        ],
+        [
+          "PRY-003",
+          0.161,
+          [
+            "tienda",
+            "línea",
+            "integración",
+            "cliente"
+          ]
+        ]
+      ],
+      "POL-002": [
+        [
+          "POL-007",
+          0.217,
+          [
+            "política",
+            "empresa",
+            "puesto",
+            "empleado"
+          ]
+        ],
+        [
+          "POL-005",
+          0.205,
+          [
+            "política",
+            "equipos",
+            "empresa",
+            "trabajo"
+          ]
+        ],
+        [
+          "POL-001",
+          0.181,
+          [
+            "política",
+            "empleados",
+            "empresa",
+            "clientes"
+          ]
+        ]
+      ]
+    }
+  }
+}

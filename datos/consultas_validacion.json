@@ -1,0 +1,17 @@
+[
+  {"consulta": "el certificado del sitio venció y sale como inseguro", "relevantes": ["INF-004"]},
+  {"consulta": "cómo revisar el código de un compañero antes de integrarlo", "relevantes": ["DEV-003", "DEV-002"]},
+  {"consulta": "no me llegan los correos de confirmación", "relevantes": ["SOP-006"]},
+  {"consulta": "la impresora de etiquetas no imprime", "relevantes": ["SOP-004"]},
+  {"consulta": "qué hacer si la región principal de la nube se cae", "relevantes": ["INF-006", "INF-002"]},
+  {"consulta": "reglas para usar la laptop de la empresa", "relevantes": ["POL-005", "POL-001"]},
+  {"consulta": "cómo pedir vacaciones", "relevantes": ["POL-003"]},
+  {"consulta": "el reporte de ventas tarda mucho en cargar", "relevantes": ["SOP-007"]},
+  {"consulta": "qué aprendimos de la migración del banco", "relevantes": ["PRY-006"]},
+  {"consulta": "la app del celular se cierra sola", "relevantes": ["SOP-003"]},
+  {"consulta": "cómo bajar lo que gastamos en la nube", "relevantes": ["INF-008"]},
+  {"consulta": "pasos para dar de alta a un empleado nuevo", "relevantes": ["POL-006"]},
+  {"consulta": "el carrito cobra mal el impuesto", "relevantes": ["DEV-005"]},
+  {"consulta": "SAP marca error al facturar", "relevantes": ["SOP-002"]},
+  {"consulta": "cómo manejar los riesgos de un proyecto", "relevantes": ["PRY-005"]}
+]

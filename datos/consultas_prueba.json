@@ -1,0 +1,12 @@
+[
+  {"consulta": "qué hacer cuando falla un servidor en la nube", "tipo": "normal (Actividad 4)", "relevantes": ["INF-001", "INF-002", "INF-005", "INF-006"]},
+  {"consulta": "el usuario no puede entrar porque su cuenta está bloqueada", "tipo": "normal", "relevantes": ["SOP-008", "SOP-001"]},
+  {"consulta": "los pedidos de la tienda no llegan a SAP", "tipo": "normal", "relevantes": ["SOP-009", "DEV-007", "DEV-001"]},
+  {"consulta": "cómo estimar el tiempo y costo de un proyecto nuevo", "tipo": "normal", "relevantes": ["PRY-002", "PRY-001"]},
+  {"consulta": "cómo subir una aplicación a producción", "tipo": "normal", "relevantes": ["DEV-006", "DEV-008"]},
+  {"consulta": "se cayo el servidr por falta de memorya", "tipo": "faltas de ortografía", "relevantes": ["INF-001", "INF-005"]},
+  {"consulta": "me quieren hackear el servidor", "tipo": "sinónimo", "relevantes": ["INF-007", "POL-001"]},
+  {"consulta": "política de home office", "tipo": "sinónimo (inglés)", "relevantes": ["POL-002"]},
+  {"consulta": "backup de la base de datos", "tipo": "sinónimo (inglés)", "relevantes": ["INF-002", "INF-006"]},
+  {"consulta": "la cuenta está bloqueada y también venció el certificado SSL", "tipo": "dos temas", "relevantes": ["SOP-008", "INF-004"]}
+]
