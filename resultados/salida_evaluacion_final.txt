@@ -1,47 +1,33 @@
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
-/usr/local/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
 ======================================================================
 RECUPERACIÓN (promedio de 10 consultas, top 5)
 ======================================================================
 Consulta                                                      Tipo                   P avance  P final R avance  R final
-qué hacer cuando falla un servidor en la nube                 normal (Actividad 4)       0.60     0.60     0.75     0.75
+qué hacer cuando falla un servidor en la nube                 normal (Actividad 4)       0.80     0.40     0.80     0.40
 el usuario no puede entrar porque su cuenta está bloqueada    normal                     0.40     1.00     1.00     0.50
 los pedidos de la tienda no llegan a SAP                      normal                     0.60     1.00     1.00     0.33
-cómo estimar el tiempo y costo de un proyecto nuevo           normal                     0.20     0.50     0.50     0.50
+cómo estimar el tiempo y costo de un proyecto nuevo           normal                     0.20     1.00     0.50     0.50
 cómo subir una aplicación a producción                        normal                     0.20     1.00     0.50     0.50
 se cayo el servidr por falta de memorya                       faltas de ortografía       1.00     1.00     0.50     0.50
-me quieren hackear el servidor                                sinónimo                   0.50     1.00     0.50     0.50
-política de home office                                       sinónimo (inglés)          0.20     1.00     1.00     1.00
-backup de la base de datos                                    sinónimo (inglés)          0.20     1.00     0.50     0.50
+me quieren hackear el servidor                                sinónimo                   0.20     1.00     0.50     0.50
+política de home office                                       sinónimo (inglés)          0.00     1.00     0.00     1.00
+backup de la base de datos                                    sinónimo (inglés)          0.00     1.00     0.00     0.50
 la cuenta está bloqueada y también venció el certificado SSL  dos temas                  1.00     1.00     1.00     1.00
-AVANCE   Precision 0.490 | Recall 0.725 | F1 0.535
-FINAL    Precision 0.910 | Recall 0.608 | F1 0.700
-(Validación, 15 consultas usadas para ajustar el corte: Precision 0.877 | Recall 0.967)
+AVANCE   Precision 0.440 | Recall 0.580 | F1 0.465
+FINAL    Precision 0.940 | Recall 0.573 | F1 0.690
+(Validación, 15 consultas usadas para ajustar el corte: Precision 0.813 | Recall 0.833)
 
 ======================================================================
 CLASIFICACIÓN (validación cruzada de 5 partes, repetida 5 veces)
 ======================================================================
-AVANCE   Precision 0.831 | Recall 0.836 | F1 0.808 | Exactitud 0.836
-FINAL    Precision 0.912 | Recall 0.904 | F1 0.885 | Exactitud 0.888
+AVANCE   Precision 0.917 | Recall 0.896 | F1 0.894 | Exactitud 0.896
+FINAL    Precision 0.920 | Recall 0.902 | F1 0.900 | Exactitud 0.902
 
 ======================================================================
 RECOMENDACIONES (documentos parecidos)
 ======================================================================
-Recomendaciones de la misma categoría: 69.0%
-  INF-001 -> INF-005 (0.26) ['servidores', 'alertas', 'memoria', 'pasa'] | INF-007 (0.16) ['reporte', 'incidente', 'servidor', 'operaciones'] | INF-003 (0.13) ['máquinas', 'virtuales']
-  SOP-009 -> DEV-007 (0.26) ['integración', 'sap', 'pedidos', 'clientes'] | DEV-001 (0.17) ['pedidos', 'formato', 'errores'] | PRY-003 (0.16) ['tienda', 'línea', 'integración', 'cliente']
-  POL-002 -> POL-007 (0.22) ['política', 'empresa', 'puesto', 'empleado'] | POL-005 (0.20) ['política', 'equipos', 'empresa', 'trabajo'] | POL-001 (0.18) ['política', 'empleados', 'empresa', 'clientes']
+Recomendaciones de la misma categoría: 62.7%
+  INF-001 -> INF-005 (0.24) ['servidores', 'alertas', 'memoria', 'pasa'] | INF-013 (0.18) ['reporte', 'incidente', 'servidor', 'dejó'] | INF-003 (0.15) ['máquinas', 'virtuales']
+  SOP-009 -> DEV-007 (0.28) ['integración', 'sap', 'pedidos', 'clientes'] | DEV-001 (0.18) ['pedidos', 'formato', 'errores'] | DEV-017 (0.15) ['tienda', 'línea', 'avisa', 'pedido']
+  POL-002 -> POL-016 (0.23) ['política', 'empleados', 'empresa', 'equipo'] | POL-007 (0.21) ['política', 'empresa', 'puesto', 'empleado'] | INF-010 (0.20) ['vpn', 'usar', 'empresa', 'trabajan']
 
 Resultados guardados en resultados/evaluacion_final.json y resultados/evaluacion_final.png

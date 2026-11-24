@@ -7,7 +7,7 @@ Proyecto final de la materia **Sistemas y tecnologías de administración del co
 
 **App en línea:** _pega aquí el link de Streamlit Cloud_
 
-Neoris es una consultora de TI que nació en Monterrey (hoy EPAM NEORIS). Los 42 documentos son un escenario de ejemplo hecho para el proyecto, porque la empresa no publica sus documentos internos.
+Neoris es una consultora de TI que nació en Monterrey (hoy EPAM NEORIS). Los 100 documentos son un escenario de ejemplo hecho para el proyecto, porque la empresa no publica sus documentos internos.
 
 ## Qué hace el sistema
 
@@ -63,14 +63,14 @@ python src/evaluacion.py         # evaluación de la Actividad 4
 
 | Métrica | Avance | Sistema final |
 | --- | --- | --- |
-| Precision de búsqueda (10 consultas, top 5) | 0.49 | **0.91** |
-| Recall de búsqueda | 0.73 | 0.61 |
-| F1 de búsqueda | 0.54 | **0.70** |
-| Precision de clasificación (validación cruzada 5x5) | 0.83 | **0.91** |
-| Recall de clasificación | 0.84 | **0.90** |
-| Recomendaciones de la misma categoría | - | 69% |
+| Precision de búsqueda (10 consultas, top 5) | 0.44 | **0.94** |
+| Recall de búsqueda | 0.58 | 0.57 |
+| F1 de búsqueda | 0.47 | **0.69** |
+| Precision de clasificación (validación cruzada 5x5) | 0.92 | 0.92 |
+| Recall de clasificación | 0.90 | 0.90 |
+| Recomendaciones de la misma categoría | - | 63% |
 
-El corte de resultados (55% del mejor puntaje) se ajustó con `datos/consultas_validacion.json`; las consultas de prueba solo se usan para medir.
+Todo se midió con los 100 documentos. El corte de resultados (75% del mejor puntaje) se ajustó con `datos/consultas_validacion.json`; las consultas de prueba solo se usan para medir.
 
 ## Estructura
 
@@ -87,7 +87,7 @@ neoris-gestion-conocimiento/
 │   ├── utilidades.py          carga de documentos
 │   └── clasificador.py, busqueda_semantica.py, evaluacion.py   (fases anteriores)
 ├── datos/
-│   ├── documentos/            42 documentos en 5 categorías
+│   ├── documentos/            100 documentos en 5 categorías (20 por categoría)
 │   ├── nuevos/                5 documentos de prueba
 │   ├── consultas_prueba.json  10 consultas para medir
 │   └── consultas_validacion.json  15 consultas para ajustar el corte

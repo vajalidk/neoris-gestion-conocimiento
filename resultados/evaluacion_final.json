@@ -1,14 +1,14 @@
 {
   "recuperacion": {
     "avance": {
-      "precision": 0.49,
-      "recall": 0.725,
-      "f1": 0.535
+      "precision": 0.44,
+      "recall": 0.58,
+      "f1": 0.465
     },
     "final": {
-      "precision": 0.91,
-      "recall": 0.608,
-      "f1": 0.7
+      "precision": 0.94,
+      "recall": 0.573,
+      "f1": 0.69
     },
     "consultas": [
       {
@@ -18,34 +18,37 @@
           "INF-001",
           "INF-002",
           "INF-005",
-          "INF-006"
+          "INF-006",
+          "INF-013"
         ],
         "recuperados_avance": [
-          "INF-001",
-          "INF-007",
+          "INF-016",
           "INF-006",
-          "INF-002",
-          "INF-008"
+          "INF-013",
+          "INF-001",
+          "INF-002"
         ],
         "recuperados_final": [
-          "INF-005",
-          "INF-001",
-          "INF-007",
+          "INF-020",
+          "INF-016",
           "PRY-006",
+          "INF-005",
           "INF-006"
         ],
         "avance": [
-          0.6,
-          0.75,
-          0.667
+          0.8,
+          0.8,
+          0.8
         ],
         "final": [
-          0.6,
-          0.75,
-          0.667
+          0.4,
+          0.4,
+          0.4
         ],
         "no_encontrados_final": [
-          "INF-002"
+          "INF-001",
+          "INF-002",
+          "INF-013"
         ]
       },
       {
@@ -57,10 +60,10 @@
         ],
         "recuperados_avance": [
           "SOP-008",
+          "INF-017",
           "SOP-001",
-          "PRY-007",
-          "SOP-004",
-          "SOP-007"
+          "SOP-013",
+          "PRY-007"
         ],
         "recuperados_final": [
           "SOP-008"
@@ -92,7 +95,7 @@
           "DEV-007",
           "DEV-001",
           "PRY-001",
-          "PRY-003"
+          "SOP-002"
         ],
         "recuperados_final": [
           "SOP-009"
@@ -121,14 +124,13 @@
         ],
         "recuperados_avance": [
           "PRY-002",
+          "PRY-010",
           "PRY-003",
-          "INF-005",
           "POL-007",
-          "POL-006"
+          "PRY-016"
         ],
         "recuperados_final": [
-          "PRY-002",
-          "INF-008"
+          "PRY-002"
         ],
         "avance": [
           0.2,
@@ -136,9 +138,9 @@
           0.286
         ],
         "final": [
+          1.0,
           0.5,
-          0.5,
-          0.5
+          0.667
         ],
         "no_encontrados_final": [
           "PRY-001"
@@ -154,9 +156,9 @@
         "recuperados_avance": [
           "DEV-006",
           "SOP-003",
-          "INF-001",
           "DEV-002",
-          "PRY-002"
+          "INF-001",
+          "INF-018"
         ],
         "recuperados_final": [
           "DEV-006"
@@ -210,16 +212,19 @@
           "POL-001"
         ],
         "recuperados_avance": [
+          "INF-013",
           "INF-001",
-          "INF-007"
+          "INF-007",
+          "INF-016",
+          "SOP-010"
         ],
         "recuperados_final": [
           "INF-007"
         ],
         "avance": [
+          0.2,
           0.5,
-          0.5,
-          0.5
+          0.286
         ],
         "final": [
           1.0,
@@ -239,17 +244,17 @@
         "recuperados_avance": [
           "POL-001",
           "POL-008",
-          "POL-002",
-          "POL-005",
-          "POL-003"
+          "POL-016",
+          "POL-018",
+          "POL-019"
         ],
         "recuperados_final": [
           "POL-002"
         ],
         "avance": [
-          0.2,
-          1.0,
-          0.333
+          0.0,
+          0.0,
+          0.0
         ],
         "final": [
           1.0,
@@ -266,19 +271,19 @@
           "INF-006"
         ],
         "recuperados_avance": [
+          "DEV-016",
+          "DEV-018",
           "DEV-009",
-          "POL-008",
-          "SOP-005",
-          "INF-002",
-          "POL-001"
+          "INF-016",
+          "SOP-015"
         ],
         "recuperados_final": [
           "INF-002"
         ],
         "avance": [
-          0.2,
-          0.5,
-          0.286
+          0.0,
+          0.0,
+          0.0
         ],
         "final": [
           1.0,
@@ -318,32 +323,32 @@
       }
     ],
     "validacion": {
-      "precision": 0.877,
-      "recall": 0.967,
+      "precision": 0.813,
+      "recall": 0.833,
       "consultas": 15
     }
   },
   "clasificacion": {
     "avance": {
-      "precision": 0.831,
-      "recall": 0.836,
-      "f1": 0.808,
-      "accuracy": 0.836
+      "precision": 0.917,
+      "recall": 0.896,
+      "f1": 0.894,
+      "accuracy": 0.896
     },
     "final": {
-      "precision": 0.912,
-      "recall": 0.904,
-      "f1": 0.885,
-      "accuracy": 0.888
+      "precision": 0.92,
+      "recall": 0.902,
+      "f1": 0.9,
+      "accuracy": 0.902
     }
   },
   "recomendaciones": {
-    "precision_misma_categoria": 0.69,
+    "precision_misma_categoria": 0.627,
     "casos": {
       "INF-001": [
         [
           "INF-005",
-          0.255,
+          0.24,
           [
             "servidores",
             "alertas",
@@ -352,18 +357,18 @@
           ]
         ],
         [
-          "INF-007",
-          0.159,
+          "INF-013",
+          0.181,
           [
             "reporte",
             "incidente",
             "servidor",
-            "operaciones"
+            "dejó"
           ]
         ],
         [
           "INF-003",
-          0.129,
+          0.149,
           [
             "máquinas",
             "virtuales"
@@ -373,7 +378,7 @@
       "SOP-009": [
         [
           "DEV-007",
-          0.255,
+          0.285,
           [
             "integración",
             "sap",
@@ -383,7 +388,7 @@
         ],
         [
           "DEV-001",
-          0.172,
+          0.184,
           [
             "pedidos",
             "formato",
@@ -391,20 +396,30 @@
           ]
         ],
         [
-          "PRY-003",
-          0.161,
+          "DEV-017",
+          0.154,
           [
             "tienda",
             "línea",
-            "integración",
-            "cliente"
+            "avisa",
+            "pedido"
           ]
         ]
       ],
       "POL-002": [
         [
+          "POL-016",
+          0.225,
+          [
+            "política",
+            "empleados",
+            "empresa",
+            "equipo"
+          ]
+        ],
+        [
           "POL-007",
-          0.217,
+          0.212,
           [
             "política",
             "empresa",
@@ -413,23 +428,13 @@
           ]
         ],
         [
-          "POL-005",
-          0.205,
+          "INF-010",
+          0.201,
           [
-            "política",
-            "equipos",
+            "vpn",
+            "usar",
             "empresa",
-            "trabajo"
-          ]
-        ],
-        [
-          "POL-001",
-          0.181,
-          [
-            "política",
-            "empleados",
-            "empresa",
-            "clientes"
+            "trabajan"
           ]
         ]
       ]
